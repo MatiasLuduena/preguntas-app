@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +9,34 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo {
+  height: 100vh;
+  background-image: url("/public/imagenes/cuadriculado.jpg");
+}
+
+.pregunta {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.respuestas {
+  text-align: start;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: #fff;
+  margin: 6px;
+  padding: 8px;
+  font-weight: 300;
+}
+
+.respuestas-seleccionado {
+  background-color: rgba(95, 255, 95, 0.5);
 }
